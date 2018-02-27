@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lab5.android.wku.edu.bmicalculator.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="100 dp"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/screen_background_dark_transparent"
+            android:orientation="vertical"></LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

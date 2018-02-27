@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lab3.android.wku.edu.esportclub.whatisesport">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="What are eSports?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ScrollView
+                android:id="@+id/sv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="49dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="eSports are video game competitions between professional players for millions of dollars in prize money. Popular game titles include League of Legends, Dota 2, Counter-Strike: Global Offensive, StarCraft II, Call of Duty, and more. Market research firm Newzoo reports that the worldwide audience for eSports is 230 million, and it is projected to grow 26% larger by next year.  Several years ago, club teams began forming at colleges and universities. They slowly found ways to compete with each other, and it was not long before regular seasons and tournaments were established. These collegiate tournaments have grown to the point where students are competing for tens of thousands of dollars in scholarship money. The demand for this form of competition is so great that pioneering universities in the sport such as WKU have set out to establish eSports programs much like athletics programs.  Many people wonder how these competitions can be considered sports. After all, there is no apparent physical exertion. However, eSports use video games to test the limits of strategic intelligence, hand-eye coordination, decision making ability under pressure, and team work. The matches require quite extreme physical and mental exertion.  Professor Ingo Froböse, the expert in prevention and rehabilitation at the German Sports University in Cologne, studied players to measure the strain that eSport matches put on the body. In a recent  article, Froböse's findings showed that players reaction times were fast enough to complete up to 400 ‘actions’ in 60 seconds using both hands simultaneously, which is a strain on dexterity that no other sport imposes (even table tennis). The pressure of stress during intense matches cause players to produce as much cortisol as is seen in race-car drivers. Player pulse rates can rise as high as 160-180, which are numbers that occur during the fastest sprints or marathons. All of this has to be managed while working in concert with 4 other teammates, in an ever changing environment, and while 5 opponents are trying to undermine your every effort."
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="18sp"
+                        android:typeface="normal" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

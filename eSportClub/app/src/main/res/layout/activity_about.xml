@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lab3.android.wku.edu.esportclub.about">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WKU eSport Program"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The WKU eSports program was approved in May of 2016. We started with a League of Legends team then slowly grew and created an Overwatch team.  Currently we have 13 players, 5 students on the admins, and one part time university staff that functions as a coach and administrative overseer.  WKU is positioned to become a founding program in collegiate eSports. Our goal is to carry that momentum forward, and we wish to see WKU become known as the premiere university for eSports in the country. This means providing our players with top of the line equipment, a dedicated eSports arena, an excellent coaching staff, and scholarships to attract the best talent in the world.  We invite you to join us for an exciting second year as we watch this program continue grow!" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supporters of the WKU eSports Program"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <WebView
+            android:id="@+id/sponsors"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
